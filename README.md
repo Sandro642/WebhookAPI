@@ -21,7 +21,7 @@ For maven
 	    <artifactId>WebhookAPI</artifactId>
 	    <version>Tag</version>
 	  </dependency>
-</dependencies> ```
+</dependencies>
 
 For Gradle
 
@@ -34,4 +34,5 @@ For Gradle
 
  dependencies {
 	        implementation 'com.github.Sandro642:WebhookAPI:Tag'
-	} ```
+	}
+```
