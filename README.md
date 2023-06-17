@@ -4,4 +4,34 @@ L'API du webhook est facile à utiliser et à intégrer avec des applications ti
 
 L'API du webhook pour Discord est également très efficace. Elle permet aux développeurs de personnaliser les messages avec des images, des liens et des emojis pour créer des messages interactifs et engageants. De plus, les messages envoyés via l'API du webhook sont instantanés, ce qui garantit que les utilisateurs reçoivent les notifications en temps réel.
 
-En somme, l'API du webhook pour Discord est une solution simple, efficace et personnalisable pour intégrer des notifications et des messages automatisés à votre serveur Discord. Elle est facile à utiliser et à intégrer avec des applications tierces, et offre une grande flexibilité pour créer des messages interactifs et engageants.
+En somm, l'API du webhook pour Discord est une solution simple, efficace et personnalisable pour intégrer des notifications et des messages automatisés à votre serveur Discord. Elle est facile à utiliser et à intégrer avec des applications tierces, et offre une grande flexibilité pour créer des messages interactifs et engageants.
+
+For maven
+
+``` <repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+
+<dependencies>
+    <dependency>
+	    <groupId>com.github.Sandro642</groupId>
+	    <artifactId>WebhookAPI</artifactId>
+	    <version>Tag</version>
+	  </dependency>
+</dependencies> ```
+
+For Gradle
+
+``` allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+ dependencies {
+	        implementation 'com.github.Sandro642:WebhookAPI:Tag'
+	} ```
